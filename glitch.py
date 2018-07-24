@@ -1003,7 +1003,7 @@ def gabriel():
     clearScr()
     os.system("python gabriel.py")
     ftpbypass = raw_input("Enter Target IP and Use Command:")
-    os.system("python gabriel.py %s" % ftpbypass)t
+    os.system("python gabriel.py %s" % ftpbypass)
 
 
 def sitechecker():
