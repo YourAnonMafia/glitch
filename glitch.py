@@ -85,7 +85,7 @@ glitchlogo = color.OKGREEN + '''
     _/    _/  _/  _/    _/      _/        _/    _/          
     _/_/_/  _/  _/      _/_/    _/_/_/  _/    _/
         '''
-glitchPrompt = color.OKGREEN + "Glitch > "
+glitchPrompt = color.OKGREEN + "Glitch > " + color.END
 alreadyInstalled = "Already Installed"
 continuePrompt = "\nClick [Return] to continue"
 
@@ -434,7 +434,7 @@ class nmap:
         print("   {2}--Port Scan [-Pn]")
         print("   {3}--Operating System Detection [-A]\n")
         print("   {99}-Return to information gathering menu \n")
-        response = raw_input("nmap ~# ")
+        response = raw_input( color.OKGREEN + "nmap > "+ color.END )
         clearScr()
         logPath = "logs/nmap-" + strftime("%Y-%m-%d_%H:%M:%S", gmtime())
         try:
