@@ -116,7 +116,7 @@ class glitch:
     def __init__(self):
         clearScr()
         self.createFolders()
-        print (glitchogo + color.IMPORTANT + '''
+        print (glitchlogo + color.IMPORTANT + '''
        ]#################[+] Coded By Gh05t [+]#################[
        ]$$$$$$$$[+]  Follow us on twitter @MafiaProj [+]$$$$$$$$[
     ''' + color.END + '''
