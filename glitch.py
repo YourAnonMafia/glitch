@@ -79,11 +79,11 @@ yes = config.get('glitch', 'yes').split()
 
 glitchlogo = color.OKGREEN + '''
                                                                 
-     _/_/_/  _/  _/    _/                _/             
-  _/        _/      _/_/_/_/    _/_/_/  _/_/_/          
- _/  _/_/  _/  _/    _/      _/        _/    _/         
-_/    _/  _/  _/    _/      _/        _/    _/          
- _/_/_/  _/  _/      _/_/    _/_/_/  _/    _/
+         _/_/_/  _/  _/    _/                _/             
+      _/        _/      _/_/_/_/    _/_/_/  _/_/_/          
+     _/  _/_/  _/  _/    _/      _/        _/    _/         
+    _/    _/  _/  _/    _/      _/        _/    _/          
+    _/_/_/  _/  _/      _/_/    _/_/_/  _/    _/
         '''
 glitchPrompt = color.OKGREEN + "Glitch > "
 alreadyInstalled = "Already Installed"
