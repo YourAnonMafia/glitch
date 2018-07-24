@@ -89,7 +89,7 @@ glitchPrompt = color.OKGREEN + "Glitch > "
 alreadyInstalled = "Already Installed"
 continuePrompt = "\nClick [Return] to continue"
 
-termsAndConditions = color.OKAYBLUE + '''
+termsAndConditions = color.OKBLUE + '''
 I shall not use The Glitch Framework to:
 (i) upload or otherwise transmit, display or distribute any
 content that infringes any trademark, trade secret, copyright
