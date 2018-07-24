@@ -4,6 +4,6 @@ The glitch framework is a pentesting and exploitation platform designed to ease 
 
 # Installation 
 
-``` bash <(wget -qO- https://raw.githubusercontent.com/YourAnonMafia/glitch/master/install.sh)
-# 
+``` bash <(wget -qO- https://raw.githubusercontent.com/YourAnonMafia/glitch/master/install.sh) ```
+
 
