@@ -79,11 +79,11 @@ yes = config.get('glitch', 'yes').split()
 
 glitchlogo = color.OKGREEN + '''
                                                                 
-         _/_/_/  _/  _/    _/                _/             
-      _/        _/      _/_/_/_/    _/_/_/  _/_/_/          
-     _/  _/_/  _/  _/    _/      _/        _/    _/         
-    _/    _/  _/  _/    _/      _/        _/    _/          
-    _/_/_/  _/  _/      _/_/    _/_/_/  _/    _/
+             _/_/_/  _/  _/    _/                _/             
+          _/        _/      _/_/_/_/    _/_/_/  _/_/_/          
+         _/  _/_/  _/  _/    _/      _/        _/    _/         
+        _/    _/  _/  _/    _/      _/        _/    _/          
+         _/_/_/  _/  _/      _/_/    _/_/_/  _/    _/
         '''
 glitchPrompt = color.OKGREEN + "Glitch > " + color.END
 alreadyInstalled = "Already Installed"
@@ -118,7 +118,7 @@ class glitch:
         self.createFolders()
         print (glitchlogo + color.IMPORTANT + '''
        ]#################[+] Coded By Gh05t [+]#################[
-       ]$$$$$$$$[+]  Follow us on twitter @MafiaProj [+]$$$$$$$$[
+       ]$$$$$$$[+]  Follow us on twitter @GlitchProj [+]$$$$$$$$[
     ''' + color.END + '''
        [1]--Information Gathering
        [2}--Password Attacks
@@ -183,10 +183,13 @@ class glitch:
 
 class sniffingSpoofingMenu:
     menuLogo = '''
-    .dP"Y8 88b 88 88 888888 888888 88 88b 88  dP""b8
-    `Ybo." 88Yb88 88 88__   88__   88 88Yb88 dP   `"
-    o.`Y8b 88 Y88 88 88""   88""   88 88 Y88 Yb  "88
-    8bodP' 88  Y8 88 88     88     88 88  Y8  YboodP
+     _______       __  ___  ___ __             
+    |   _   .-----|__.'  _.'  _|__.-----.-----.
+    |   1___|     |  |   _|   _|  |     |  _  |
+    |____   |__|__|__|__| |__| |__|__|__|___  |
+    |:  1   |                           |_____|
+    |::.. . |                                  
+    `-------'
     '''
 
     def __init__(self):
@@ -284,10 +287,12 @@ class webHackingMenu:
 
 class privateWebHacking:
     menuLogo = '''
-    88""Yb 88""Yb 88 Yb    dP    db    888888 888888
-    88__dP 88__dP 88  Yb  dP    dPYb     88   88__
-    88"""  88"Yb  88   YbdP    dP__Yb    88   88""
-    88     88  Yb 88    YP    dP""""Yb   88   888888
+     888888ba           oo                     dP            
+     88    `8b                                 88            
+    a88aaaa8P' 88d888b. dP dP   .dP .d8888b. d8888P .d8888b. 
+     88        88'  `88 88 88   d8' 88'  `88   88   88ooood8 
+     88        88       88 88 .88'  88.  .88   88   88.  ... 
+     dP        dP       dP 8888P'   `88888P8   dP   `88888P'
     '''
 
     def __init__(self):
@@ -304,10 +309,21 @@ class privateWebHacking:
 
 class postExploitationMenu:
     menuLogo = '''
-    88""Yb  dP"Yb  .dP"Y8 888888
-    88__dP dP   Yb `Ybo."   88
-    88"""  Yb   dP o.`Y8b   88
-    88      YbodP  8bodP'   88
+                                               
+    ,-.----.                                   
+    \    /  \                          ___     
+    |   :    \                       ,--.'|_   
+    |   |  .\ :   ,---.              |  | :,'  
+    .   :  |: |  '   ,'\   .--.--.   :  : ' :  
+    |   |   \ : /   /   | /  /    '.;__,'  /   
+    |   : .   /.   ; ,. :|  :  /`./|  |   |    
+    ;   | |`-' '   | |: :|  :  ;_  :__,'| :    
+    |   | ;    '   | .; : \  \    `. '  : |__  
+    :   ' |    |   :    |  `----.   \|  | '.'| 
+    :   : :     \   \  /  /  /`--'  /;  :    ; 
+    |   | :      `----'  '--'.     / |  ,   /  
+    `---'.|                `--'---'   ---`-'   
+    `---`
     '''
 
     def __init__(self):
@@ -343,10 +359,13 @@ Information Gathering Tools Classes
 
 class informationGatheringMenu:
     menuLogo = '''
-    88 88b 88 888888  dP"Yb
-    88 88Yb88 88__   dP   Yb
-    88 88 Y88 88""   Yb   dP
-    88 88  Y8 88      YbodP
+     ______             ___         
+    /\__  _\          /'___\        
+    \/_/\ \/     ___ /\ \__/  ___   
+       \ \ \   /' _ `\ \ ,__\/ __`\ 
+        \_\ \__/\ \/\ \ \ \_/\ \L\ \
+        /\_____\ \_\ \_\ \_\\ \____/
+        \/_____/\/_/\/_/\/_/ \/___/
     '''
 
     def __init__(self):
@@ -393,10 +412,12 @@ class informationGatheringMenu:
 
 class nmap:
     nmapLogo = '''
-    88b 88 8b    d8    db    88""Yb
-    88Yb88 88b  d88   dPYb   88__dP
-    88 Y88 88YbdP88  dP__Yb  88"""
-    88  Y8 88 YY 88 dP""""Yb 88
+    _____   __                          
+    ___  | / /______ _________ ________ 
+    __   |/ /__  __ `__ \  __ `/__  __ \
+    _  /|  / _  / / / / / /_/ /__  /_/ /
+    /_/ |_/  /_/ /_/ /_/\__,_/ _  .___/ 
+                           /_/
     '''
 
     def __init__(self):
@@ -484,10 +505,10 @@ class setoolkit:
 
 class host2ip:
     host2ipLogo = '''
-    88  88  dP"Yb  .dP"Y8 888888 oP"Yb. 88 88""Yb
-    88  88 dP   Yb `Ybo."   88   "' dP' 88 88__dP
-    888888 Yb   dP o.`Y8b   88     dP'  88 88"""
-    88  88  YbodP  8bodP'   88   .d8888 88 88
+    8   8             w   d88b 888 888b. 
+    8www8 .d8b. d88b w8ww " dP  8  8  .8 
+    8   8 8' .8 `Yb.  8    dP   8  8wwP' 
+    8   8 `Y8P' Y88P  Y8P d888 888 8
     '''
 
     def __init__(self):
@@ -501,10 +522,10 @@ class host2ip:
 
 class wpscan:
     wpscanLogo = '''
-    Yb        dP 88""Yb .dP"Y8  dP""b8    db    88b 88
-     Yb  db  dP  88__dP `Ybo." dP   `"   dPYb   88Yb88
-      YbdPYbdP   88"""  o.`Y8b Yb       dP__Yb  88 Y88
-       YP  YP    88     8bodP'  YboodP dP""""Yb 88  Y8
+     \ \        /   _ \    ___|                      
+      \ \  \   /   |   | \___ \    __|   _` |  __ \  
+       \ \  \ /    ___/        |  (     (   |  |   | 
+        \_/\_/    _|     _____/  \___| \__,_| _|  _|
     '''
 
     def __init__(self):
@@ -561,10 +582,12 @@ class wpscan:
 
 class CMSmap:
     CMSmapLogo = '''
-     dP""b8 8b    d8 .dP"Y8 8b    d8    db    88""Yb
-    dP   `" 88b  d88 `Ybo." 88b  d88   dPYb   88__dP
-    Yb      88YbdP88 o.`Y8b 88YbdP88  dP__Yb  88"""
-     YboodP 88 YY 88 8bodP' 88 YY 88 dP""""Yb 88
+                                      
+    _____ _____ _____ _____         
+    |     |     |   __|     |___ ___ 
+    |   --| | | |__   | | | | .'| . |
+    |_____|_|_|_|_____|_|_|_|__,|  _|
+                                |_|
     '''
 
     def __init__(self):
@@ -629,10 +652,10 @@ class XSStrike:
 
 class doork:
     doorkLogo = '''
-    8888b.   dP"Yb   dP"Yb  88""Yb 88  dP
-     8I  Yb dP   Yb dP   Yb 88__dP 88odP
-     8I  dY Yb   dP Yb   dP 88"Yb  88"Yb
-    8888Y"   YbodP   YbodP  88  Yb 88  Yb
+    ____     ___     ___   ____  __ __
+    || \\   // \\   // \\  || \\ || //
+    ||  )) ((   )) ((   )) ||_// ||<< 
+    ||_//   \\_//   \\_//  || \\ || \\
     '''
 
     def __init__(self):
@@ -669,10 +692,15 @@ class doork:
 
 class crips:
     cripsLogo = '''
-     dP""b8 88""Yb 88 88""Yb .dP"Y8
-    dP   `" 88__dP 88 88__dP `Ybo."
-    Yb      88"Yb  88 88"""  o.`Y8b
-     YboodP 88  Yb 88 88     8bodP'
+                _  .-')             _ (`-.   .-')    
+            ( \( -O )           ( (OO  ) ( OO ).  
+    .-----. ,------.  ,-.-')  _.`     \(_)---\_) 
+    '  .--./ |   /`. ' |  |OO)(__...--''/    _ |  
+    |  |('-. |  /  | | |  |  \ |  /  | |\  :` `.  
+    /_) |OO  )|  |_.' | |  |(_/ |  |_.' | '..`''.) 
+    ||  |`-'| |  .  '.',|  |_.' |  .___.'.-._)   \ 
+    (_'  '--'\ |  |\  \(_|  |    |  |     \       / 
+    `-----' `--' '--' `--'    `--'      `-----'
     '''
 
     def __init(self):
@@ -707,10 +735,14 @@ Password Attack Tools Classes
 
 class passwordAttacksMenu:
     menuLogo = '''
-    88""Yb    db    .dP"Y8 .dP"Y8 Yb        dP 8888b.
-    88__dP   dPYb   `Ybo." `Ybo."  Yb  db  dP   8I  Yb
-    88"""   dP__Yb  o.`Y8b o.`Y8b   YbdPYbdP    8I  dY
-    88     dP""""Yb 8bodP' 8bodP'    YP  YP    8888Y"
+    $$$$$$$\                                                   $$\ 
+    $$  __$$\                                                  $$ |
+    $$ |  $$ |$$$$$$\   $$$$$$$\  $$$$$$$\ $$\  $$\  $$\  $$$$$$$ |
+    $$$$$$$  |\____$$\ $$  _____|$$  _____|$$ | $$ | $$ |$$  __$$ |
+    $$  ____/ $$$$$$$ |\$$$$$$\  \$$$$$$\  $$ | $$ | $$ |$$ /  $$ |
+    $$ |     $$  __$$ | \____$$\  \____$$\ $$ | $$ | $$ |$$ |  $$ |
+    $$ |     \$$$$$$$ |$$$$$$$  |$$$$$$$  |\$$$$$\$$$$  |\$$$$$$$ |
+    \__|      \_______|\_______/ \_______/  \_____\____/  \_______|
     '''
 
     def __init__(self):
@@ -739,10 +771,14 @@ class passwordAttacksMenu:
 
 class cupp:
     cuppLogo = '''
-     dP""b8 88   88 88""Yb 88""Yb
-    dP   `" 88   88 88__dP 88__dP
-    Yb      Y8   8P 88"""  88"""
-     YboodP `YbodP' 88     88
+                    (    (     
+    (           )\ ) )\ )  
+    )\      (  (()/((()/(  
+    (((_)     )\  /(_))/(_)) 
+    )\___  _ ((_)(_)) (_))   
+    ((/ __|| | | || _ \| _ \  
+    | (__ | |_| ||  _/|  _/  
+    \___| \___/ |_|  |_|
      '''
 
     def __init__(self):
@@ -773,10 +809,14 @@ Wireless Testing Tools Classes
 
 class wirelessTestingMenu:
     menuLogo = '''
-    Yb        dP 88 88""Yb 888888 88     888888 .dP"Y8 .dP"Y8
-     Yb  db  dP  88 88__dP 88__   88     88__   `Ybo." `Ybo."
-      YbdPYbdP   88 88"Yb  88""   88  .o 88""   o.`Y8b o.`Y8b
-       YP  YP    88 88  Yb 888888 88ood8 888888 8bodP' 8bodP'
+    o          `O                  o                   
+    O           o o               O                    
+    o           O                 o                    
+    O           O                 O                    
+    o     o     o O  `OoOo. .oOo. o  .oOo. .oOo  .oOo  
+    O     O     O o   o     OooO' O  OooO' `Ooo. `Ooo. 
+    `o   O o   O' O   O     O     o  O         O     O 
+     `OoO' `OoO'  o'  o     `OoO' Oo `OoO' `OoO' `OoO'
     '''
 
     def __init__(self):
@@ -885,10 +925,14 @@ Exploitation Tools Classes
 
 class exploitationToolsMenu:
     menuLogo = '''
-    888888 Yb  dP 88""Yb 88
-    88__    YbdP  88__dP 88
-    88""    dPYb  88"""  88  .o
-    888888 dP  Yb 88     88ood8
+     _______      ___    ___ ________  ___       ________  ___  _________   
+    |\  ___ \    |\  \  /  /|\   __  \|\  \     |\   __  \|\  \|\___   ___\ 
+    \ \   __/|   \ \  \/  / | \  \|\  \ \  \    \ \  \|\  \ \  \|___ \  \_| 
+     \ \  \_|/__  \ \    / / \ \   ____\ \  \    \ \  \\\  \ \  \   \ \  \  
+      \ \  \_|\ \  /     \/   \ \  \___|\ \  \____\ \  \\\  \ \  \   \ \  \ 
+       \ \_______\/  /\   \    \ \__\    \ \_______\ \_______\ \__\   \ \__\
+        \|_______/__/ /\ __\    \|__|     \|_______|\|_______|\|__|    \|__|
+                 |__|/ \|__|
     '''
 
     def __init__(self):
